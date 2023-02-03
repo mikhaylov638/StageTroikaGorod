@@ -1,0 +1,3 @@
+rootProject.name = 'StageTroikaGorod'
+include 'troika.test.regions'
+

@@ -21,6 +21,7 @@ import org.testng.annotations.Test;
 public class TestNonAuthZone {
     private WebDriver driver;
 
+
     @BeforeMethod
     public void setUp() {
         driver = new ChromeDriver();

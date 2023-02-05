@@ -12,7 +12,6 @@ public class AuthTest {
         System.setProperty("webdriver.chrome.driver", "StageTroikaGorod\\src\\resources\\drivers\\chromedriver.exe");
     }
 
-
     @Test
     public void auth() throws InterruptedException {
         WebDriver driver = new ChromeDriver();

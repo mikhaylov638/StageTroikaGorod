@@ -9,11 +9,12 @@ import org.testng.annotations.Test;
 
 public class AuthTest {
     WebDriver driver;
-    public void setUp() {
+    public void setUp() //добавил
+    {
         System.setProperty("webdriver.chrome.driver", "StageTroikaGorod\\src\\resources\\drivers\\chromedriver.exe");
     }
 
-    @BeforeMethod
+    @BeforeMethod //начало фикстуры
     public void beforeTest(){
         driver = new ChromeDriver();
         driver.get("https://stage-gorodtroika.rtgsoft.ru");
